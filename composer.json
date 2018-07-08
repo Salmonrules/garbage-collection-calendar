@@ -1,0 +1,20 @@
+{
+    "name": "dvanderzalm/afvalkalender",
+    "description": "A simple garbage calendar, using mijnafvalwijzer.nl API",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Danny van der Zalm",
+            "email": "vanderzalm@redkiwi.nl"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+form {
+    border: solid 1px #1e1e1e;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.group {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+}
+
+.green {
+    color: #fff;
+    background-color: #4ba639;
+    padding: 1em;
+}
+
+.blue {
+    color: #fff;
+    background-color: #3950a6;
+    padding: 1em;
+}
+
+.red {
+    color: #fff;
+    background-color: #a63939;
+    padding: 1em;
+}
+
+.orange {
+    color: #fff;
+    background-color: #e0a822;
+    padding: 1em;
+}
+
+.result {
+    display: none;
+}

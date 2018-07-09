@@ -1,0 +1,34 @@
+{
+    "default_tasks": [
+        "sass",
+        "javascript"
+    ],
+    "production": true,
+    "sass": {
+        "src": [
+            "templates/scss/*.scss"
+        ],
+        "dest": "templates/css",
+        "includePaths": [
+            "node_modules/bootstrap-sass/assets",
+            "node_modules/bootstrap-material-design",
+            "node_modules/font-awesome/scss",
+            "node_modules/normalize-scss/sass"
+        ],
+        "watch": [
+            "templates/scss/**/*.scss"
+        ]
+    },
+    "javascript": {
+        "items": {
+            "src": [
+                "templates/javascript/*.js"
+            ],
+            "outputname": "site.min.js",
+            "dest": "templates/javascript"
+        },
+        "watch": [
+            "templates/javascript/**/*.js"
+        ]
+    }
+}

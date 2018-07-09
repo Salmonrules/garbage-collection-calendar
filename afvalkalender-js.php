@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 
-use \dvanderzalm\afvalkalender\Controller\AfvalKalenderController;
+use \dvanderzalm\Afvalkalender\Controller\AfvalKalenderController;
 
 $afvalKalender = new AfvalKalenderController($_POST['zipcode'], $_POST['number'], $_POST['suffix']);
 

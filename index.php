@@ -10,8 +10,8 @@ $daySelector .= '</select>';
     <head>
         <title>Afvalkalender</title>
         <link rel="stylesheet" href="templates/css/afvalkalender.css" />
-        <script type="text/javascript" src="templates/javascript/jquery.min.js"></script>
-        <script type="text/javascript" src="templates/javascript/afvalkalender.js"></script>
+        <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="templates/javascript/site.min.js"></script>
     </head>
     <body>
         <div class="result"></div>
